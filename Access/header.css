@@ -1,0 +1,209 @@
+*{
+    color: white;
+}
+.taskbar-link {
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(0,0,0,0);
+    width: 12.5%;
+    
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    
+  }
+  .taskbar-link::after {
+    display: table;
+    clear: both;
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s;
+  }
+  .taskbar-link:hover::after {
+    width: 100%;
+  }
+  @font-face{
+    font-family: 'Gotham';
+    src: url(./SVN-GOTHAM/SVN-Gotham\ Bold.ttfx`);
+}
+*{
+    font-family: 'Gotham';
+}
+a{
+    color: black;
+}
+.taskbar-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 3%;
+    letter-spacing: 3px;
+}
+.taskbar-user ul{
+    display: flex;
+}
+.taskbar-user li{
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.taskbar-logo{
+    display: grid;
+    /* padding: 0 20% 0 20%; */
+}
+.taskbar-logo img{
+    height: 50px;
+}
+.taskbar-logo span{
+    padding-top: 10px;
+    margin-left: -7px;
+}
+.taskbar-hotline a:hover{
+    color: rgb(179, 179, 179);
+}
+.taskbar-hotline span{
+    font-size: 14px;
+}
+.taskbar-line{
+    
+    margin: 10px 9% 0 9%;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+}
+
+.taskbar-icon{
+    cursor: pointer;
+    padding: 0px 5px 0px 5px;
+    z-index: 1000;
+    line-height: 35px !important;
+}
+.search.active{
+    width: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.search{
+    position: relative;
+    border-radius: 60px;
+    transition: 0.5s;
+    display: flex;
+    /* width: 150px; */
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.input{
+    position: relative;
+    width : 100% ;
+    display : flex ;
+    justify-content : center ;    
+    align-items : center ;
+
+}
+.search .input input{
+    background-color: rgb(0,0,0,0);
+    color: white;
+    position : absolute ;
+    top : 0 ;
+    left: 0;
+    width : 85% ;
+    height : 100% ;
+    border : none ;
+    outline : none ;
+    font-size: 12px;
+    
+}
+.clear{
+    position : absolute ;
+    top : 50% ;
+    transform: translateY(-50%) ;
+    width : 15px ;
+    height : 15px ;
+    right : 5px ;
+    cursor : pointer ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+}
+.clear::before{
+    position : absolute ;
+    content : ' ' ;
+    width : 1px ;
+    height : 10px ;
+    background : #999 ;
+    transform : rotate(45deg) ;
+}
+.clear::after{
+    position : absolute ;
+    content : ' ' ;
+    width : 1px ;
+    height : 10px ;
+    background : #999 ;
+    transform : rotate( 315deg ) ;
+}
+.d-none{
+    display: none !important;
+}
+
+
+.taskbar-menu ul ul{
+    display: none;
+}
+.taskbar-menu ul li:hover > ul{
+    display: block;
+}
+.taskbar-menu ul ul ul{
+    margin-left: 150px;
+    top: 50px;
+    position: absolute;
+}
+.taskbar-menu ul ul ul li{
+    width: 200px;
+}
+.taskbar-bottom{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.taskbar-small-menu{
+    
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
+}
+.taskbar-small-menu:hover{
+    color: rgb(255, 0, 0);
+}
+.last-menu{
+    border-bottom: none;
+}
+.menu-effect{
+    color: white;
+}
+.menu-effect:hover{
+    color: #999;
+}
+.taskbar{
+    background-color: rgb(0,0,0,0);
+}
+.menu-hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

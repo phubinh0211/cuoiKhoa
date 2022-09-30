@@ -1,0 +1,60 @@
+
+footer{
+    
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+}
+.all-footer{
+    display: flex;
+    padding: 40px;
+}
+.footer{
+    width: 25%;
+    margin-right: 20px;
+}
+.footer-logo img{
+    height: 60px;
+    margin-right: 10px;
+}
+.footer1 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer-line{
+    margin-right: 15px;
+    background-color: rgb(39, 39, 39);
+    width: 1px;
+}
+.footer1{
+    display: flex;
+    margin-top: 35px;
+}
+.footer-tittle{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#phone{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.footer-icon{
+    margin-top: 5px;
+    margin-right: 5px;
+    color: black;
+}
+.all-footer p{
+    color: black;
+}
+.all-footer b{
+    color: black;
+}
+.all-footer li{
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.footer-last{
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
